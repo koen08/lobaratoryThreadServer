@@ -1,9 +1,9 @@
 package com.lobaratory.thread;
 
-public class Client {
+public class ClientInfo {
     private long id;
 
-    public Client(long id) {
+    public ClientInfo(long id) {
         this.id = id;
     }
 

@@ -3,10 +3,9 @@ package com.lobaratory.thread;
 import java.util.Date;
 
 public class Log {
-    private Log log;
-    private String nameClass;
-    private String nameThread;
-    private Date date = new Date();
+    private final String nameClass;
+    private final String nameThread;
+    private final Date date;
 
     public Log(String nameClass, String nameThread) {
         this.nameClass = nameClass;
